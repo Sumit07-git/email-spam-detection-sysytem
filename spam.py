@@ -16,7 +16,7 @@ class SpamDetector:
 
 
 
-            self.data=pd.read_csv("C:/Users/sumit/Desktop/spam/spam.csv")
+            self.data=pd.read_csv("spam.csv")
 
             self.data.drop_duplicates(inplace=True)
             self.data['Category']= self.data['Category'].replace(['ham','spam'],['Not Spam','Spam'])
