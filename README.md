@@ -24,14 +24,15 @@ A machine learning-powered web application built with Streamlit that detects whe
 
 ```
 spam/
-│
 ├── app.py               # Main Streamlit application
 ├── spam.py              # SpamDetector class with ML model
 ├── ui.py                # UI components and styling
 ├── spam.csv             # Dataset file
 ├── requirements.txt     # Python dependencies
 ├── README.md            # Project documentation
-
+└── assets/              # Static assets directory
+    ├── screenshot(15).png  # Application screenshot 1
+    └── screenshot(16).png  # Application screenshot 2
 ```
 
 ## 🔧 Installation
@@ -150,10 +151,6 @@ UI components and styling:
 2. Create a feature branch
 3. Make your changes
 4. Submit a pull request
-
-## 📄 License
-
-This project is open source and available under the MIT License.
 
 ## 👨‍💻 Author
 
