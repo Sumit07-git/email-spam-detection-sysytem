@@ -23,13 +23,15 @@ A machine learning-powered web application built with Streamlit that detects whe
 ## 📁 Project Structure
 
 ```
-spam-detection/
+spam/
 │
-├── app.py           # Main Streamlit application
-├── spam.py           # SpamDetector class with ML model
-├── ui.py             # UI components and styling
-├── spam.csv          # Dataset file
-└── README.md         # Project documentation
+├── app.py               # Main Streamlit application
+├── spam.py              # SpamDetector class with ML model
+├── ui.py                # UI components and styling
+├── spam.csv             # Dataset file
+├── requirements.txt     # Python dependencies
+├── README.md            # Project documentation
+
 ```
 
 ## 🔧 Installation
